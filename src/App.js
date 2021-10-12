@@ -70,7 +70,7 @@ function App() {
       });
 
       setTodos(todos.filter((todo) => todo.id !== id));
-      setShowModifyForm('modifyFormHidden');
+      setShowModifyForm('modifyForm');
    };
    //Delete Section End//
 
