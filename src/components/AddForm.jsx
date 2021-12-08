@@ -1,6 +1,5 @@
 import Button from './Button';
-import { useState } from 'react';
-import { useRef } from 'react';
+import { useState, useRef } from 'react';
 
 const AddForm = ({ addTodo }) => {
    const [title, setTitle] = useState('');
